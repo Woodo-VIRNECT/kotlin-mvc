@@ -31,6 +31,7 @@ class PageController {
         // @ResponseBody : RestController 가 아닌 곳(controller) 에서 JSON 응답을 내릴때 사용한다.
         return UserRequest().apply {
             this.name = "steve"
+            this.phoneNumber = "11222331"
         }
 
     }
